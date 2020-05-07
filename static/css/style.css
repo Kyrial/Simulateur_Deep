@@ -1,0 +1,132 @@
+
+body {
+	/*background: lightgray;*/
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: linear-gradient(to right top, #f3c385,  white, #b8c4ff);
+}
+
+h1 {
+	color: red;
+	text-align: center;
+}
+
+.main {
+	width: 1800px;
+	height: 1000px;
+	margin-right: auto;
+
+}
+
+#param {
+	width: 380px;
+	height: 650px;
+	position: absolute;
+	float: left;
+	border:2px outset black;
+}
+
+#zoneImage{
+	border:2px outset black;
+
+}
+
+.parametres {
+	line-height: 400%;
+	 
+}
+
+.nbr_layers {
+	float: center;
+	/*margin-left: 300px;*/
+	width: 1280px;
+	height: 80%;
+	text-align: center;
+	position: absolute;
+	/*margin-left: 40%;*/ 	margin-left: 590px
+
+}
+
+.bouton {
+	border-radius:25px;
+	position: absolute;
+
+}
+
+.zoombt{
+	
+}
+
+.colone_fonctions {
+	position: absolute;
+	height: 650px;
+	width: 190px;
+	margin-left: 380px;
+	text-align: center;
+
+}
+
+#miaou_principal {
+	width: 1400px;
+	margin-left: 460px;
+	margin-top: 10px;
+
+}
+
+#zoneImage {
+	margin-left: 950px;
+	margin-top: 780px;
+	width: 320px;
+	height: 300px;
+	position: absolute;
+}
+
+#bas_page {
+	width: 100%;
+	height: 100px;;
+}
+
+.fonction {
+	position: absolute;
+	left: 5%;
+	
+}
+
+#fonction_1 {
+	top: 10%;
+}
+
+#fonction_2 {
+	top: 20%;
+}
+
+#fonction_3 {
+	top: 30%;
+}
+
+#carre_1 {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+}
+
+
+
+/*
+svg{
+	position: absolute;
+}*/
+/* ne pas modifier les valeur !!*/
+#miaou_principal path {
+
+  stroke-dasharray: 20; /*largeur du pointiller*/
+  /*stroke-dashoffset: 1000;*/
+  animation: dash 15s infinite linear;
+ 
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 35500; /*décallement de l'animation*/
+  }
+}
+
