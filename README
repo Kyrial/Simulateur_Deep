@@ -1,7 +1,0 @@
-. 
-
-~/.local/bin/jupyter-notebook
-
-
-
-pip install -U scikit-learn
