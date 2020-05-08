@@ -20,6 +20,7 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 
+from math import *
 import sys
 
 import json
@@ -411,7 +412,8 @@ def makeNetwork(X,y, epochs = 100, eta=0.01, validation_size=0.6,configNeurones=
     ##important -> paramètre a saisir via html
     
 
-    testsize= 1-validation_size
+    testsize= round(1-validation_size,2)
+    #print("testsize:", testsize," et valid size: ",validation_size)
     seed=30
     # séparation jeu d'apprentissage et jeu de test
     X_train,X_test,y_train,y_test=train_test_split(X, 
@@ -501,7 +503,7 @@ def makeCircles(epochs = 100, eta=0.01, validation_size=0.6,configNeurones=None)
 
     #validation_size=0.6 #40% du jeu de données pour le test
 
-    testsize= 1-validation_size
+    testsize= round(1-validation_size,2)
     seed=30
     # séparation jeu d'apprentissage et jeu de test
     X_train,X_test,y_train,y_test=train_test_split(X, 
