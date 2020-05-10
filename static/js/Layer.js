@@ -97,16 +97,15 @@ function add_button_nbNeurone(numLayer)
 
 ///ajoute neurone dans un layer
 function add_neurone(idneurone,numLayer) {
-	console.log(idneurone + 'et aussi'+numLayer)
-	console.log("bbla bla     "+$('#'+idneurone.id).parent().attr('id'))
+
+
 	var idparent=$('#'+idneurone.id).parent().parent().attr('id')
 	var parent=document.getElementById(idparent)
-	console.log(idparent)
-	console.log("test    "+idneurone.id)
+
 
 	//console.log($('#'+idneurone.id).parent().parent().attr('id')) 
 	var noeud=parent.getElementsByClassName("span")
-	console.log(noeud[0])
+
 
 	var a=noeud[0].innerHTML;
 	var b = parseInt(a);
@@ -126,12 +125,11 @@ function add_neurone(idneurone,numLayer) {
 function remove_neurone(idneurone,numLayer){
 	var idparent=$('#'+idneurone.id).parent().parent().attr('id')
 	var parent=document.getElementById(idparent)
-	console.log("test "+idparent)
-	console.log(idneurone.id)
+
 	
 	//console.log($('#'+idneurone.id).parent().parent().attr('id')) 
 	var noeud=parent.getElementsByClassName("span")
-	console.log(noeud[0])
+
 	var a=noeud[0].innerHTML;
 	var b = parseInt(a);
 		if (b>1) {
@@ -140,7 +138,7 @@ function remove_neurone(idneurone,numLayer){
 		noeud[0].innerHTML=a;
 		
 		//suppression des carrés dans SVG
-		console.log('.'+(b+1)+'CarreLayer'+numLayer)
+
 		$('#id'+(b+1)+'CarreLayer'+numLayer).remove();
 		
 		//suppression des courbe dans SVG

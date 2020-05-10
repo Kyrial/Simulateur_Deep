@@ -208,7 +208,6 @@ function creeZoneCourbe(){
 acc_hist={{acc_hist|tojson}}
 cost_hist={{cost_hist|tojson}}
 if (acc_hist != 'non' && cost_hist != 'non'){
-	console.log("                                                      ICI  et LA        ")
 	window.acc_hist=acc_hist 
 	window.cost_hist=cost_hist
 }
@@ -259,7 +258,7 @@ $.getJSON("../static/json/file2.json", function(data) {
   a={{truc|tojson}}
 
 	if (a != 'non'){
-		console.log("                                                      ICI          ")
+
 		window.data=a //on remplace la fichier charger par défault si le serveur a renvoyer une réponse
 		}
   })

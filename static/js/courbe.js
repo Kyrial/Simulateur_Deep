@@ -108,7 +108,6 @@ switch(true) {
 
 
 
-console.log("miaou")
 //genereSVG(1000,1000,'body')
 /*
 traceCourbe(50,200,500,100)
@@ -135,7 +134,6 @@ parcoursLayer("layer2","layer3",traceCourbe)
 parcoursLayer("layer3","layer4",traceCourbe)
 parcoursLayer("layer4","layer5",traceCourbe)*/
 
-console.log('malika, tu peux pas test :) ')
 /*
 var elem = document.getElementsByClassName('courbe');
 var elem = document.getElementsByClassName('CarreLayer2');

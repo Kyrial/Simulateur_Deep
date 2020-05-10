@@ -33,7 +33,7 @@ function ajoutNcarre(pos,n, x,nomClasse=''){// passer le layer correspondant en 
 }
 
 
-console.log("Malika test")
+
 ajoutNcarre(0,2,0,"CarreLayer0")
 //genereSVG(100,100,'carre')
 /*creerCarre(20, 20, 30, 30)
