@@ -12,6 +12,7 @@ Groupe du Projet de Programmation :
 - Python 3.6 ou plus récent (projet testé uniquement sur python 3.6, 3.7 et 3.8)
 - les librairies suivante sont nécessaires:
 	-Flask; numpy; sklearn; matplotlib; panda; seaborn; sys; json; math
+	
 -installation via le terminal via la commande pip install <nomLib>  ou  pip3 install <nomLib>
 
 		
